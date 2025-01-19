@@ -31,3 +31,10 @@
 тест 4(с обработкой ошибки ввода):
 
 ![4](https://github.com/malygin04/lab10/assets/102820638/6e51a39b-b43a-45e9-be80-11d5e8ab06ed)
+
+Пример работы приложения из Docker (дз № 2):
+
+![image](https://github.com/user-attachments/assets/5107a50f-92c1-43d2-8265-d0a45f1a0434)
+
+![image](https://github.com/user-attachments/assets/d1d5c1f9-9ff7-431a-8ee6-407fc294e6e0)
+
