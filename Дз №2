@@ -1,0 +1,17 @@
+# Инструкция по запуску контейнера в Docker
+
+1. Скачиваем docker desktop и регистрируемся в нём через github
+2. Открываем wsl и копируем туда файлы с гита с помощью следующей команды: git clone https://github.com/malygin04/lab10.git
+3. Переходим в папку, куда был скопирован репозиторий: cd lab10
+4. Создаём в этой папке файла без расширения под названием Dockerfile с помощью команды touch Dockerfile
+5. Открывваем этот файл с помощью команды nano Dockerfile в режиме блокнота и заполняем следующим текстом:
+
+FROM python:3.10-slim
+WORKDIR /app
+COPY . /app
+CMD ["python", "Ft-220007-Malygin.py"]
+6. Закрываем файл с помощью Cntrl + x , y, Enter
+7. Вставляем в строку следующую команду: docker build -t lab10_image .
+8. Запускаем контейнер: docker run -it --name lab10_container lab10_image
+9. Приложение запустилось
+10. Когда приложение завершило свою работу, останавливаем контейнер: docker stop lab10_container
