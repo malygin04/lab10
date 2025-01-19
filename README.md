@@ -32,9 +32,17 @@
 
 ![4](https://github.com/malygin04/lab10/assets/102820638/6e51a39b-b43a-45e9-be80-11d5e8ab06ed)
 
-Пример работы приложения из Docker (дз № 2):
+# Пример работы приложения из Docker (дз № 2):
 
 ![image](https://github.com/user-attachments/assets/5107a50f-92c1-43d2-8265-d0a45f1a0434)
 
 ![image](https://github.com/user-attachments/assets/d1d5c1f9-9ff7-431a-8ee6-407fc294e6e0)
 
+# Создание и работа контейнера в Docker Desktop
+Контейнер пустой:
+
+![image](https://github.com/user-attachments/assets/88759373-01de-430e-bf10-e11305b6c829)
+
+Контейнер запущен:
+
+![image](https://github.com/user-attachments/assets/909747aa-2fb3-4c3a-bc63-28b11edb0bdf)
